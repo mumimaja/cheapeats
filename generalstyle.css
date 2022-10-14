@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+background-image:url("forsideimg/forside.jpg");
+}
+
+header{
+display:flex;
+justify-content:space-around;
+background-color:#292920;
+padding-top: 5%;
+padding-bottom: 5%;
+height:20px;
+}
+
+header a img{
+top:5px;
+}
