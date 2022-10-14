@@ -2,12 +2,20 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Roboto Mono', monospace;
+    color: azure;
 }
 
 body{
 background-image:url("forsideimg/forside.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }
-
+body a{
+    text-decoration:none;
+}
 header{
 display:flex;
 justify-content:space-around;
@@ -17,6 +25,32 @@ padding-bottom: 5%;
 height:20px;
 }
 
-header a img{
-top:5px;
+/* hvordan retter jeg billedet til*/
+
+main{
+margin:20px;
+padding: 200px 100px;
+border:5px solid #ffeb88;    
+}
+
+/* hvordan får jeg denne boks mere kvadratisk*/ 
+
+.nyesteopskrifter{
+padding:90px 80px;
+background-color:#292920;
+}
+
+main a{   
+text-align: center;
+}
+
+main a h1{
+font-weight:bold;
+font-size:90px;
+}
+
+footer{
+display: flex;
+justify-content: space-around;
+padding-bottom:20px;
 }
