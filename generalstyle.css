@@ -1,98 +1,180 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Roboto Mono', monospace;
-    color: azure;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Roboto Mono', monospace;
+color: black;
 }
 
-body{
-background-image:url("forsideimg/forside.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
-}
 body a{
-    text-decoration:none;
+text-decoration:none;
 }
+
+
+/* HEADER*/
+
 header{
 display:flex;
 justify-content:space-around;
-background-color:#292920;
+background-color:white;
 padding-top: 5%;
 padding-bottom: 5%;
 height:20px;
 }
+header a:hover{
+font-size: 17px;
+}
 
-/* drop down menu*/
+
+/* DROP DOWN MENU */
+
 .dropdown {
-     position: relative;
-     display: inline-block;
-  }
-  
-  .dropdown-content {
-     display: none;
-     position: absolute;
-     right: 0;
-     background-color: #f9f9f9;
-     min-width: 160px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-  }
-  
-.dropdown-content a {
-     color: black;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
+position: relative;
+display: inline-block;
 }
   
-.dropdown-content a:hover {background-color:#292920;}
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border: 2px solid black;
+}
   
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+   
 .dropdown:hover .dropdown-content {
-     display: block;
+display: block;
 }
   
 .dropdown:hover .dropbtn {
-      border: 2px solid white; 
+border: 2px solid black; 
+}
+.dropbtn:hover{
+font-size:17px;
 }
 
-.dropbtn{
-background-color:none;
-font-family:'Roboto Mono', monospace;
-padding:5px;
+/* DROPDOWN MENU SLUT*/
 
-}
-
-
-
-/* hvordan retter jeg billedet til*/
 
 main{
-margin:20px;
-padding: 200px 100px;
-border:5px solid #ffeb88;    
+padding-top:100px;
+padding-bottom:100px;
 }
 
-/* hvordan får jeg denne boks mere kvadratisk*/ 
-
-.nyesteopskrifter{
-padding:90px 80px;
-background-color:#292920;
+/*OVERSKRIFT*/
+#overskrift{
+padding:20px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+margin-right:500px;
+margin-left: 500px;
+border:2px solid black;
 }
 
-main a{   
+
+/*CARDS*/
+
+/*-START- FØRSTE SÆT MED KORT START*/
+.fourcards{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:100px;
+}
+
+main .fourcards section{
+width:300px;
+height:400px;    
+}
+.fourcards img{
+height: 350px;
+width:300px;
+}
+
+/* -SLUT- FØRSTE SÆT MED KORT SLUT*/
+/* -START-ANDET SÆT MED KORT START*/
+
+.fourcards2{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:100px;
+ }
+ 
+ main .fourcards2 section{
+width:300px;
+height:400px;
+ }
+ .fourcards2 img{
+height: 350px;
+width:300px;
+}
+
+/* -SLUT-ANDET SÆT MED KORT START*/
+/* -START-ANDET SÆT MED KORT START*/
+ .fourcards3{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:50px;
+ }
+ 
+ main .fourcards3 section{
+width:300px;
+height:400px;
+ }
+
+ .fourcards3 img{
+     height:350px;
+     width:300px;
+}
+/* -SLUT-ANDET SÆT MED KORT START*/
+
+
+
+/* -START- SKRIFT KASSE*/
+.skriftkasse{
+background-color: #ffeb88;
+}
+
+.skriftkasse h1 {
+font-size:16px;
 text-align: center;
+padding-top:5px;
+padding-bottom:5px;
 }
+     
+.skriftkasse h2{
+padding-top:8px;
+padding-bottom:8px;
+font-size:14px;
+}          
+/* -SLUT- SKRIFTKASSE*/
 
-main a h1{
-font-weight:bold;
-font-size:90px;
-}
 
+
+/* FOOTER*/
 footer{
-display: flex;
-justify-content: space-around;
-padding-bottom:2;
-}
+     display: flex;
+     justify-content: space-around;
+     margin-bottom:20px;
+     margin-top:20px;
+     padding-top:10px;
+     border-top:2px dotted black;
+     }
+     
+     footer a:hover{
+      color: #ffeb88;
+      font-size:17px;
+     }
+     
