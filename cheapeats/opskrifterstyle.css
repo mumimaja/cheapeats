@@ -1,0 +1,22 @@
+
+/* måske fejl*/
+.ingredienser img{
+    height:200px;
+    width:350;}
+
+.tracking{
+    display: flex;
+    justify-content:space-around;
+}
+
+#instruktioner{
+    border-bottom:1px solid black;
+}
+.instruktioner2{
+    margin-left:30px;
+    margin-right:30px;
+}
+.instruktioner2 li{
+margin-top: 25px;
+margin-left: 25px
+}
