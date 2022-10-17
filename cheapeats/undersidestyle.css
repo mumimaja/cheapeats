@@ -1,0 +1,180 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Roboto Mono', monospace;
+color: black;
+}
+
+body a{
+text-decoration:none;
+}
+
+
+/* HEADER*/
+
+header{
+display:flex;
+justify-content:space-around;
+background-color:white;
+padding-top: 5%;
+padding-bottom: 5%;
+height:20px;
+}
+header a:hover{
+font-size: 17px;
+}
+
+
+/* DROP DOWN MENU */
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+  
+.dropdown-content {
+display: none;
+position: absolute;
+right: 0;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+border: 2px solid black;
+}
+  
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+   
+.dropdown:hover .dropdown-content {
+display: block;
+}
+  
+.dropdown:hover .dropbtn {
+border: 2px solid black; 
+padding:10px
+}
+.dropbtn:hover{
+font-size:17px;
+}
+
+/* DROPDOWN MENU SLUT*/
+
+
+main{
+padding-top:100px;
+padding-bottom:100px;
+}
+
+/*OVERSKRIFT*/
+#overskrift{
+padding:20px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+margin-right:500px;
+margin-left: 500px;
+border:2px solid black;
+}
+
+
+/*CARDS*/
+
+/*-START- FØRSTE SÆT MED KORT START*/
+.fourcards{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:100px;
+}
+
+main .fourcards section{
+width:300px;
+height:400px;    
+}
+.fourcards img{
+height: 350px;
+width:300px;
+}
+
+/* -SLUT- FØRSTE SÆT MED KORT SLUT*/
+/* -START-ANDET SÆT MED KORT START*/
+
+.fourcards2{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:100px;
+ }
+ 
+ main .fourcards2 section{
+width:300px;
+height:400px;
+ }
+ .fourcards2 img{
+height: 350px;
+width:300px;
+}
+
+/* -SLUT-ANDET SÆT MED KORT START*/
+/* -START-ANDET SÆT MED KORT START*/
+ .fourcards3{
+width:100%;
+display:flex;
+justify-content:space-around;
+margin-bottom:50px;
+ }
+ 
+ main .fourcards3 section{
+width:300px;
+height:400px;
+ }
+
+ .fourcards3 img{
+     height:350px;
+     width:300px;
+}
+/* -SLUT-ANDET SÆT MED KORT START*/
+
+
+
+/* -START- SKRIFT KASSE*/
+.skriftkasse{
+background-color: #ffeb88;
+padding:13px
+}
+
+.skriftkasse h1 {
+font-size:16px;
+text-align: center;
+padding-top:5px;
+padding-bottom:5px;
+}
+     
+.skriftkasse h2{
+padding-top:8px;
+padding-bottom:8px;
+font-size:14px;
+}          
+/* -SLUT- SKRIFTKASSE*/
+
+/* FOOTER*/
+footer{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom:20px;
+     margin-top:20px;
+     padding-top:10px;
+     border-top:2px dotted black;
+     }
+     
+     footer a:hover{
+      color: #ffeb88;
+      font-size:17px;
+     }
+     
