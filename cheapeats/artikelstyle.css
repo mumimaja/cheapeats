@@ -109,13 +109,15 @@ font-style: italic;
 margin-left:70px;
 }
 
-
-
-/* måske fejl*/
-.ingredienser img{
-height:200px;
-width:350;
+#billedehøjre{
+float:right;
 }
+
+.ingredienser{
+display: flex;
+justify-content:space-around;
+}
+
 
     /* FOOTER*/
 footer{
