@@ -16,11 +16,15 @@ text-decoration:none;
 header{
 display:flex;
 justify-content:space-around;
+align-items: center;
 background-color:white;
-padding-top: 5%;
-padding-bottom: 5%;
-height:20px;
+height:200px;
+margin-bottom:2px;
+border-bottom:1px dotted black;
+position: sticky;
+top:0
 }
+
 header a:hover{
 font-size: 17px;
 }
@@ -146,7 +150,7 @@ height:400px;
 /* -START- SKRIFT KASSE*/
 .skriftkasse{
 background-color: #ffeb88;
-padding:13px
+padding:13px;
 }
 
 .skriftkasse h1 {
