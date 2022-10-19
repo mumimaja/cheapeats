@@ -167,6 +167,92 @@ font-size:14px;
 }          
 /* -SLUT- SKRIFTKASSE*/
 
+
+
+
+
+
+
+
+/*ARTIKEL SPECIELLE ÆNDRINGER*/
+
+/* -START-FØRSTE SÆT MED KORT START*/
+.threecards{
+     width:100%;
+     display:flex;
+     justify-content:space-around;
+     margin-bottom:150px;
+     }
+     
+     main .threecards section{
+     width:450px;
+     height:400px;    
+     }
+     .threecards img{
+     height: 400px;
+     width: 450px;
+     }
+     
+     /* -SLUT- FØRSTE SÆT MED KORT SLUT*/
+     /* -START-ANDET SÆT MED KORT START*/
+     
+     .threecards2{
+     width:100%;
+     display:flex;
+     justify-content:space-around;
+     margin-bottom:150px;
+      }
+      
+      main .threecards2 section{
+     width:450px;
+     height:400px;
+      }
+      .threecards2 img{
+     height: 400px;
+     width:450px;
+     }
+     /* -SLUT- ANDET SÆT MED KORT SLUT*/
+ 
+     .skriftkasse h3{
+         font-size:10px;
+     }
+ 
+ 
+     /*UNDERUNDERSIDE OPSKRIFTER SPECIELLE ÆNDRINGER*/
+     .threecards3{
+         width:100%;
+         display:flex;
+         justify-content:space-around;
+         margin-bottom:150px;
+          }
+          
+          main .threecards3 section{
+         width:450px;
+         height:400px;
+          }
+          .threecards3 img{
+         height: 400px;
+         width:450px;
+         }
+         .allergier{
+             margin-top:30px;
+             margin-bottom:50px;
+             display:flex;
+             justify-content:space-around;
+             border-top:1px solid black;
+         }
+
+
+
+
+
+
+
+
+
+
+         
+
 /* FOOTER*/
 footer{
      display: flex;
@@ -174,7 +260,7 @@ footer{
      margin-bottom:20px;
      margin-top:20px;
      padding-top:10px;
-     border-top:2px dotted black;
+     border-top:1px dotted black;
      }
      
      footer a:hover{
