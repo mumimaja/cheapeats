@@ -96,15 +96,16 @@ text-align: center;
 }
 
 main p{
-padding:10px;
+padding-top:10px;
+padding-bottom:10px;
 }
 main li{
-padding:10px;
+padding-top:10px;
+padding-bottom:10px;
 margin-left:30px;
 }
 main h3{
-padding-left: 10px;
-padding-right:10px; 
+
 padding-top:15px;
 padding-bottom:15px; 
 }
@@ -224,6 +225,12 @@ margin-bottom: 30px;
 text-align: center;
 }
     /* FOOTER*/
+  
+  #socialemedier{
+    display: flex;
+    justify-content:space-between;
+  }
+  
 footer{
     display: flex;
     justify-content: space-around;
